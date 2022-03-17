@@ -12,8 +12,8 @@
                 if (isset($_POST["username"])) {
                     $username = $_POST["username"];
                     
-            		$user = "holandre_guest";
-        		    $DbPassword = "guest1admin2toor3";
+            		$user = "";
+        		    $DbPassword = "";
         		    $hostName = "localhost";
         		    $ver = md5(rand());
         		    $hashedVer = md5($ver);
