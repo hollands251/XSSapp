@@ -17,8 +17,8 @@
             if (isset($_POST[confirmNewPass]) && isset($_POST[newPass]) && (strcmp($_POST[confirmNewPass], $_POST[newPass]) == 0)) {
                 $username = $_POST["username"];
                     
-            		$user = "holandre_guest";
-        		    $DbPassword = "guest1admin2toor3";
+            		$user = "";
+        		    $DbPassword = "";
         		    $hostName = "localhost";
         
                     try {
