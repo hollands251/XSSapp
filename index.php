@@ -154,8 +154,8 @@ if(isset($_SESSION['id'])) {
                 </form>
             </div>
             <?php 
-                		$user = "holandre_guest";
-                		$DbPassword = "guest1admin2toor3";
+                		$user = "";
+                		$DbPassword = "";
                 		$hostName = "localhost";
                 
                         try {
